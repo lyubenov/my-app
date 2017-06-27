@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
-// import base from '../Base';
 import MainMenu from './common/header/MainMenu';
 import Footer from './common/footer/Footer';
 import './App.css';
@@ -17,8 +16,6 @@ class App extends Component {
     constructor(){
         super();
         this.state = {
-            uid: null,
-            owner: null
         }
     }
 	render() {

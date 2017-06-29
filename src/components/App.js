@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
+import { Perspective } from './common/header/Perspective';
 import MainMenu from './common/header/MainMenu';
 import Footer from './common/footer/Footer';
 import './App.css';
@@ -23,6 +24,7 @@ class App extends Component {
                   <div>
                     <Container fluid>
                       <MainMenu />
+                      <Perspective />
                         <Route exact path="/" component={Home}/>
                         <Route path="/about" component={About}/>
                         <Route path="/services" component={Services}/>
